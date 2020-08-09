@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
- name: train-schedule-kube-canary
+ name: train-schedule-service-canary
 spec:
  type: NodePort
  selector:
